@@ -1,0 +1,27 @@
+var hero_xp = 7500;
+var hero_name = "Aragon";
+var hero_nivel;
+
+if (hero_xp < 100) {
+  hero_nivel = "Ferro";
+  console.log(`O Herói de nome **${hero_name}** está no nível de **${hero_nivel}**`);
+} else if (hero_xp > 1000 && hero_xp <= 2000) {
+  hero_nivel = "Bronze";
+  console.log(`O Herói de nome **${hero_name}** está no nível de **${hero_nivel}**`);
+} else if (hero_xp > 2000 && hero_xp <= 5000) {
+  hero_nivel = "Prata Ouro";
+  console.log(`O Herói de nome **${hero_name}** está no nível de **${hero_nivel}**`);
+} else if (hero_xp > 5000 && hero_xp <= 8000) {
+  hero_nivel = "Platina Diamante";
+  console.log(`O Herói de nome **${hero_name}** está no nível de **${hero_nivel}**`);
+} else if (hero_xp > 8000 && hero_xp <= 9000) {
+  hero_nivel = "Ascendente";
+  console.log(`O Herói de nome **${hero_name}** está no nível de **${hero_nivel}**`);
+} else if (hero_xp > 9000 && hero_xp <= 10000) {
+  hero_nivel = "Imortal";
+  console.log(`O Herói de nome **${hero_name}** está no nível de **${hero_nivel}**`);
+} else if (hero_xp > 10000) {
+  hero_nivel = "Radiante";
+  console.log(`O Herói de nome **${hero_name}** está no nível de **${hero_nivel}**`);
+}
+  
